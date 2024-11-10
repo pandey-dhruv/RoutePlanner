@@ -1,0 +1,5 @@
+port 11434 is what ollama's api service is running on and its is how all the other
+stuff is interacting with it.
+
+to watch the GPU utilization in real-time, we use the following command
+watch -n 0.5 nvidia-smi
